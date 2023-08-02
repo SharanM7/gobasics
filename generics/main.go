@@ -23,22 +23,22 @@ func main() {
 
 	// fmt.Printf("got val :%+v\n", req)
 
-	req := Request[int]{
-		Id: 1,
-		// Data: []Data[string]{
-		// 	// {
-		// 	// 	Type: "pred",
-		// 	// 	Val:  20,
-		// 	// },
-		// 	// {
-		// 	// 	Type: "unpred",
-		// 	// 	Val:  20,
-		// 	// },
-		// },
-		Data: []Data[Value]{
-			Data[int]{},
-		},
-	}
+	// req := Request[int]{
+	// Id: 1,
+	// Data: []Data[string]{
+	// 	// {
+	// 	// 	Type: "pred",
+	// 	// 	Val:  20,
+	// 	// },
+	// 	// {
+	// 	// 	Type: "unpred",
+	// 	// 	Val:  20,
+	// 	// },
+	// },
+	// Data: []Data[Value]{
+	// 	Data[int]{},
+	// },
+	// }
 
 	// val := getVal(req, "unpred")
 	// fmt.Println("got val", val)
